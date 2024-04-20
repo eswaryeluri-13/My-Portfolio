@@ -1,7 +1,5 @@
 # My-Portfolio
 
-# My Portfolio
-
 ## About
 
 Welcome to my portfolio repository! This repository hosts the code for my personal portfolio website.
