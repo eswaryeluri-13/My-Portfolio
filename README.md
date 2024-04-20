@@ -31,4 +31,4 @@ Contributions to improve the design, functionality, or content of this portfolio
 
 ## Contact
 
-For inquiries, feedback, or collaboration opportunities, reach out via email at [your.email@example.com](mailto:your.email@example.com).
+For inquiries, feedback, or collaboration opportunities, reach out via email at [eswaryeluri13@gmail.com](mailto:eswaryeluri13@gmail.com).
