@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="PORTFOLIO.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Eswar <span>Yeluri</span></a>
+
+      <i class="bx bx-menu" i="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education" class="active">Education</a>
+        <a href="#services" class="active">Projects</a>
+        <a href="#certificates" class="active">Certificates & more</a>
+        <a href="#contact" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Eswar</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+
+        <p>
+          As a CSE undergrad at SRM-AP University (2021 - 2025), I've interned
+          at APSSDC as a web developer and at VASCUN Solutions as a UI/UX
+          designer. Proficient in languages like C/C++, Python, and basics of
+          Java, I specialize in web development (Django, HTML, ReactJS, Node.js,
+          CSS, JavaScript) and UI/UX design tools like Figma. Experienced in
+          databases including MongoDB, SQLite, and MySQL, I'm dedicated to
+          staying updated with industry trends, passionate about coding, and
+          eager to contribute to dynamic projects.
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Hire Me</a>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="image.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Education</span></h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2019</div>
+          <div class="timeline-content">
+            <h3>HIGH SCHOOL</h3>
+            <p>Sri Chaitanya school : (GPA: 10.0/10.0)</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3>INTERMEDIATE</h3>
+            <p>Sri Chaitanya ICON campus : (Percentage: 95.1%)</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 - 2025</div>
+          <div class="timeline-content">
+            <h3>BTECH</h3>
+            <p>SRM University AP : (CGPA: 9.27/10.0)</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>INTERNSHIPS</h3>
+            <p>
+              * VASCAN Solutions - UI Designer : Feb 2024 - April 2024 <br />
+              * APSSDC - Web Development : May 2023 - Aug 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Projects</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Accessify website</h4>
+            <p>
+              <br />
+              Developed a full-fledged e-commerce website using the MERN stack.
+              Crafted a user-friendly React UI for front-end and leveraged
+              Express.js/Node.js for backend functionality.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Live Face Authentication</h4>
+            <p>
+              <br />
+              Successfully implemented a secure face authentication system using
+              Python and OpenCV
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Hotel Management App</h4>
+            <p>
+              <br />
+              Developed a robust hotel management application using React.js for
+              the frontend and Spring Boot for the backend, ensuring seamless
+              communication and efficient data handling.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Baskin Robbins UI</h4>
+            <p>
+              <br />
+              Designed the user interface for an online ordering platform for
+              Baskin-Robbins using Figma, ensuring a visually appealing and
+              intuitive user experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+      <h2 class="heading">Certificates</h2>
+      <div id="picture-holder">
+        <div id="image-slider">
+          <img src="1.jpeg" alt="Special Mentions Jugaad Hackathon" />
+          <img src="2.jpeg" alt="APSSDC Internship" />
+          <img src="3.jpeg" alt="Experttalk Participation Certificate" />
+          <img src="4.png" alt="Build-v3-im-in" />
+          <img src="5.png" alt="Eswar_ISB_IBM" />
+          <img src="6.png" alt="Reskilll-Certificate" />
+        </div>
+        <div class="nav-buttons">
+          <button class="ps_prev" onclick="prevImage()">Previous</button>
+          <button class="ps_next" onclick="nextImage()">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact<span> Me</span></h2>
+      <form action="">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number" />
+            <input type="text" placeholder="Subject" />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea
+          ><input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <img src="logo.svg" alt="Eswar's Portfolio" />
+
+      <div class="social">
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">About Me</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">&copy; Yeluri Eswar | All Rights Reserved |</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
