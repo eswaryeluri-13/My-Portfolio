@@ -16,7 +16,6 @@ Welcome to my portfolio repository! This repository hosts the code for my person
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Frameworks/Libraries:** Bootstrap, Font Awesome
-- **Tools:** Figma (for UI/UX design)
 - **Version Control:** Git, GitHub
 
 ## Usage
